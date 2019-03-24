@@ -9,7 +9,7 @@ I built this package on the work of Gorkovenko (Stanford University) and Greenfi
 Converting *.pdf   to   *.txt or *.html
 I made a standalone executable version of the package ready **testpdf2txt.exe**. You could download and use it even if you do not have python 3 installed on your machine. 
 
-### please download **---testpdf2txt.exe---** from the master branch above. 
+### please download **---testpdf2txt.exe---** from the ***releases*** branch above. 
 
 You can save the program anywhere in your computer and run it by double-clicking on it directly from your machine. 
 
