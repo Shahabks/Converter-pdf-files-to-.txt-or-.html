@@ -9,32 +9,33 @@ I built this package on the work of Gorkovenko (Stanford University) and Greenfi
 Converting *.pdf   to   *.txt or *.html
 I made a standalone executable version of the package ready **testpdf2txt.exe**. You could download and use it even if you do not have python 3 installed on your machine. 
 
-### please download **testpdf2txt.exe** rom the master branch above. 
+### please download **---testpdf2txt.exe---** rom the master branch above. 
 
 You can save the program anywhere in your computer and run it by double-clicking on it directly from your machine. 
 
 <UL>
-Put your PDF file in a folder.
-Double-click the program and follow the instruction on the screen.
-You may save *.txt and *.html in a different directory, please enter the path to those directory if you wish.
-Enter the filename of your PDF. I
+<li>Put your PDF file in a folder.
+<li>Double-click the program and follow the instruction on the screen.
+<li>You may save *.txt and *.html in a different directory, please enter the path to those directory if you wish.
+<li>Enter the filename of your PDF. 
 </ul>
 
 ## Converting Multiple PDFs to .txt
 If you have multiple PDFs that you need to convert, you just have to iterate through them and call the same commands as above. Do the following steps.
 <ul>
-Create a new folder, and put all of your PDFs in there. In this example, my folder is titled “pdfs.”
-Create a new folder to store your .txt files. My folder is titled “txt.”
-Create a *.bat file, type the cd command to change directories to your PDF folder.
-Use the command line for-loop syntax in the following example to loop through your PDFs and convert them all to .txt. 
-  .
-                         @rem change to your new folder
-                         cd "C:\pdfToText" 
-                         @rem make txt file, name it example.txt
-                         cmd /k testpdf2txt.exe -o example.txt example.pdf
-                         cd "c:\pdftotext\pdfs"
-                         cmd /k for %%i in (*) do "c:\users\testpdf2txt.exe" -o c:\pdftotext\txt\%%~ni.txt %%i
-                         “%%i” stands for the current PDF file.
+<li>Create a new folder, and put all of your PDFs in there. In this example, my folder is titled “pdfs.”
+<li>Create a new folder to store your .txt files. My folder is titled “txt.”
+<li>Create a *.bat file, type the cd command to change directories to your PDF folder.
+<li>Use the command line for-loop syntax in the following example to loop through your PDFs and convert them all to .txt. 
+
+     @rem change to your new folder
+     cd "C:\pdfToText" 
+     @rem make txt file, name it example.txt
+     cmd /k testpdf2txt.exe -o example.txt example.pdf
+     cd "c:\pdftotext\pdfs"
+     cmd /k for %%i in (*) do "c:\users\testpdf2txt.exe" -o c:\pdftotext\txt\%%~ni.txt %%i
+     “%%i” stands for the current PDF file.  .
+                         
 
 I put “%%” in front of every “i” because in batch files you have to preface every variable reference with a “%%”.
 “(*)” stands for the current directory.
