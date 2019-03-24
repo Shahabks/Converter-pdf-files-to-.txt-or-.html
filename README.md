@@ -134,13 +134,10 @@ Copy and paste the following code, found on this website, into your Python scrip
       #fileConverted.close()
       print("-------------------------")
       print("-------------------------")
-      input("It's done, press any key to terminate the program")   
-      Now that we have a way to get the text content of a PDF, all we have to do is
-      Iterate through all of our PDFs.
-      For each pdf, get the text content,
-      open/create a .txt file,
-      write the text content to the .txt file.
-      You can do this using the following function and calling it like so:
+      input("It's done, press any key to terminate the program") 
+      
+Now that we have a way to get the text content of a PDF, all we have to do is Iterate through all of our PDFs. For each pdf, get the text content, open/create a .txt file, write the text content to the .txt file. You can do this using the following function and calling it like so:
+
       #converts all pdfs in directory pdfDir, saves all resulting txt files to txtdir
       def convertMultiple(pdfDir, txtDir):
           if pdfDir == "": pdfDir = os.getcwd() + "\\" #if no pdfDir passed in 
