@@ -3,11 +3,7 @@ PDFs are notoriously difficult to scrape. This program converts them to *.txt or
 
 ### Download ---testpdf2txt.exe--- from the releases branch above.
 
-<p style="color:blue">note: This program cannot open encrypted PDF, Before using this program you need to dcrypt your pdf file</p>
-<p style="color:blue">note:
-     This program cannot open encrypted PDF, 
-              Before using this program you need to dcrypt your pdf file</p>
-
+<p style="color:red">note: This program cannot open encrypted PDF, Before using this program you need to dcrypt your pdf file</p>
 
 ## Introduction
 I built this package on the work of Gorkovenko (Stanford University) and Greenfield (Harvard University) to make **pdfminer.six** available for **Python versions 3.x**.
