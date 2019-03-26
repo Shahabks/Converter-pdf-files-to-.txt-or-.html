@@ -3,7 +3,7 @@ PDFs are notoriously difficult to scrape. This program converts them to *.txt or
 
 ### Download ---testpdf2txt.exe--- from the releases branch above.
 
-
+<p style="color:blue">note: This program cannot open encrypted PDF, Before using this program you need to dcrypt your pdf file</p>
 <p style="color:blue">note:
      This program cannot open encrypted PDF, 
               Before using this program you need to dcrypt your pdf file</p>
