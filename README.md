@@ -1,10 +1,11 @@
 # Converter-pdf-files-to-.txt-or-.html
 PDFs are notoriously difficult to scrape. This program converts them to *.txt or *.html formats. The program has tested for Latin alphabets and Japanese. 
 
-## Download ---testpdf2txt.exe--- from the releases branch above.
+### Download ---testpdf2txt.exe--- from the releases branch above.
 
-     ### this program cannot open encrypted PDF, 
-              ### first before using this program please dcrypt your pdf file
+## note:
+     This program cannot open encrypted PDF, 
+              Before using this program you need to dcrypt your pdf file
 
 ## Introduction
 I built this package on the work of Gorkovenko (Stanford University) and Greenfield (Harvard University) to make **pdfminer.six** available for **Python versions 3.x**.
